@@ -8,3 +8,6 @@ from django.contrib import messages
 # Create your views here.
 def prueba(request):
     return HttpResponse("esta es mi prueba")
+
+def landing(request):
+    return render(request,'index.html')
